@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: black; */
+    /* background-color: red; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     /* background: linear-gradient(to bottom, #fff, #f1a9bd); */
 }
@@ -21,6 +23,7 @@
 .nav-bar .nav-middle{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -29,6 +32,10 @@
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+.nav-bar .nav-middle .nav-middle-1 {
+    text-align: center;   
 }
 
 .nav-bar .nav-middle .nav-middle-1 img{

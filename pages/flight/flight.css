@@ -36,9 +36,14 @@
     gap: 50px;
 }
 
-.nav-bar .nav-middle .nav-middle-1 {
+.nav-bar .nav-middle .nav-middle-1 a{
     text-align: center;
     cursor: pointer;
+    color: black;
+}
+
+.nav-bar .nav-middle .nav-middle-1 h2{
+  text-align: center;   
 }
 
 .nav-bar .nav-middle .nav-middle-1 img{
